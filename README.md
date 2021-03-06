@@ -1,4 +1,6 @@
 ## Sample console app by ROPC flow of Azure AD B2C
+### What is this?
+
 This is a sample project using msal library with ROPC flow.
 
 You need to change values of `{{Your Tenant Name}}` and `{{Your Client ID}}` to build.
