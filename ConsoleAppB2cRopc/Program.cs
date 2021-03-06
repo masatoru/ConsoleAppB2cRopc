@@ -15,7 +15,7 @@ namespace ConsoleAppB2cRopc
         private static string PolicySignUpSignIn = "B2C_1_orpc_signin";
         private static string AuthorityBase = $"https://{AzureADB2CHostname}/tfp/{Tenant}/";
         private static string Authority = $"{AuthorityBase}{PolicySignUpSignIn}";
-        private static string[] Scopes { get; } = { $"https://b2corpctest20210306.onmicrosoft.com/{ClientID}/api", "openid", "offline_access" };
+        private static string[] Scopes { get; } = { $"https://{Tenant}/{ClientID}/api", "openid", "offline_access" };
 
         private static IPublicClientApplication App { get; set; }
 
