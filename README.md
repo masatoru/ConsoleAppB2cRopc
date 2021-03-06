@@ -7,7 +7,7 @@ You need to change values of `{{Your Tenant Name}}` and `{{Your Client ID}}` to 
 
 You can get id token and access token if you signin successfully.
 
-### What is ROPC?
+### What is ROPC flow?
 OAuth 2.0 Resource Owner Password Credentials (ROPC) allows an application to sign in the user by directly handling their password. 
 
 https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc
