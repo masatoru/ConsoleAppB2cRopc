@@ -15,7 +15,9 @@ namespace ConsoleAppB2cRopc
         private static string PolicyRopc = "{{Your ROPC Flow}}"; // ex)B2C_1_orpc_signin
         private static string AuthorityBase = $"https://{AzureADB2CHostname}/tfp/{Tenant}/";
         private static string Authority = $"{AuthorityBase}{PolicyRopc}";
-        private static string[] Scopes { get; } = { $"https://{Tenant}/{ClientID}/api", "openid", "offline_access" };
+
+        private static string YourApi = "{{Your API}}";
+        private static string[] Scopes { get; } = { $"https://{Tenant}/{ClientID}/{YourApi}", "openid", "offline_access" };
 
         private static IPublicClientApplication App { get; set; }
 
