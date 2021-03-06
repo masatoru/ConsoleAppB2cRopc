@@ -12,7 +12,7 @@ namespace ConsoleAppB2cRopc
         private static string Tenant = "{{Your Tenant Name}}.onmicrosoft.com";
         private static string AzureADB2CHostname = "{{Your Tenant Name}}.b2clogin.com";
         private static string ClientID = "{{Your Client ID}}";
-        private static string PolicyRopc = "{{Your ORPC Flow}}"; // ex)B2C_1_orpc_signin
+        private static string PolicyRopc = "{{Your ROPC Flow}}"; // ex)B2C_1_orpc_signin
         private static string AuthorityBase = $"https://{AzureADB2CHostname}/tfp/{Tenant}/";
         private static string Authority = $"{AuthorityBase}{PolicyRopc}";
         private static string[] Scopes { get; } = { $"https://{Tenant}/{ClientID}/api", "openid", "offline_access" };
