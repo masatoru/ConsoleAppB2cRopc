@@ -3,7 +3,7 @@
 
 This is a sample project using MSAL library with ROPC flow.
 
-You need to change values of `{{Your Tenant Name}}` and `{{Your Client ID}}` to build.
+You need to change values of `{{Your Tenant Name}}`, `{{Your Client ID}}` and `{{Your ROPC Flow}}` to build.
 
 You can get id token and access token if you signin successfully.
 
